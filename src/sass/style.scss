@@ -1,0 +1,17 @@
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  .col{
+    flex: 1;
+    color: black;
+    border: 1px solid rgba(1, 1 ,1 ,0.5);
+    margin: 5px 0;
+    padding: 10px;
+  }
+}
+
+
+#id-checkbox {
+  appearance: none;
+  color: rebeccapurple;
+}
