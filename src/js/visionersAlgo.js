@@ -10,8 +10,6 @@ function logArray (array) {
     }
 }
 
-var array1 = [[1,2,3,4],[4,5,6,11],[7,8,9,5]];
-
 // WORKS COOL CODE
 // function createArray(length) {
 //     var arr = new Array(length || 0),
@@ -35,7 +33,7 @@ var array1 = [[1,2,3,4],[4,5,6,11],[7,8,9,5]];
 function createArray(height, width) {
     var arr = new Array(height || 0);
 
-    for (var i = 0; i < width; i++) {
+    for (var i = 0; i < height; i++) {
         arr[i] = new Array(width);
     }
     return arr;
@@ -75,7 +73,7 @@ function fillMatrixRowsCols(array, str, arrayDimension) {
 
 function createAlphabetString(startCharCode, len) {
     var str = '';
-    for (let i = startChar; i <= startChar + len; i++) {
+    for (let i = startCharCode; i <= startCharCode + len; i++) {
         str += String.fromCharCode(i);
     }
     return str;
